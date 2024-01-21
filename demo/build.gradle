@@ -1,4 +1,21 @@
-//add everything here
+plugins {
+    id 'java'
+}
+
+group 'com.epam.demo'
+version '1.0'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':utils')
+}
 
 test {
     useJUnitPlatform()
