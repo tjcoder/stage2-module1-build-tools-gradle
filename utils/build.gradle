@@ -7,7 +7,7 @@ group 'com.epam.utils'
 version '1.0'
 
 java {
-    sourceCompatibility = '17'
+    sourceCompatibility = '11'
 }
 
 repositories {
